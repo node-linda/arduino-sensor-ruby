@@ -34,7 +34,7 @@ sensors
 
     % foreman start
 
-=> http://node-linda-base.herokuapp.com/test/tuple?type=sensor
+=> http://node-linda-base.herokuapp.com/test?type=sensor
 
 
 ## Run with your [linda-base](https://github.com/node-linda/node-linda-base)

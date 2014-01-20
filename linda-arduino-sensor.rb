@@ -12,7 +12,7 @@ linda = Linda::SocketIO::Client.connect ENV['LINDA_BASE']
 ts = linda.tuplespace(ENV['LINDA_SPACE'])
 
 linda.io.on :connect do
-  puts "connect!! <#{linda.url}/#{ts.name}/tuple>"
+  puts "connect!! <#{linda.url}/#{ts.name}>"
 end
 
 linda.io.on :disconnect do
