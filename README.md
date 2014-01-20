@@ -13,6 +13,23 @@ Share Arduino's sensor values with [linda-socket.io](https://github.com/node-lin
     % bundle install
 
 
+## Setup Arduino
+
+Install Arduino Firmata v2.2
+
+    Arduino IDE -> [File] -> [Examples] -> [Firmata] -> [StandardFirmata]
+
+sensors
+- light
+  - analog input 0
+  - CdS and 330Ω
+- temperature
+  - analog input 1
+  - [LM35DZ](http://akizukidenshi.com/catalog/g/gi-00116/)
+
+![arduino schema](http://farm6.staticflickr.com/5443/8952129460_3ed3003697_z.jpg)
+
+
 ## Run
 
     % foreman start
