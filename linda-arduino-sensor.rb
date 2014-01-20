@@ -22,9 +22,9 @@ end
 loop do
   light = arduino.analog_read 0
   puts "light : #{light}"
-  ts.write type: "sensor", sensor: "light", value: light
+  ts.write type: "sensor", name: "light", value: light
   temp = arduino.analog_read(1).to_f*5*100/1024
   puts "temprature : #{temp}"
-  ts.write type: "sensor", sensor: "temprature", value: temp
+  ts.write type: "sensor", name: "temperature", value: temp
   sleep 1
 end
