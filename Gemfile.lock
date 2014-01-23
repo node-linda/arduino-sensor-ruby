@@ -7,12 +7,14 @@ GEM
       serialport (>= 1.1.0)
     args_parser (0.2.0)
     event_emitter (0.2.5)
+    hashie (2.0.5)
     httparty (0.12.0)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     json (1.8.1)
-    linda-socket.io-client (0.0.1)
+    linda-socket.io-client (0.0.2)
       event_emitter
+      hashie
       json
       socket.io-client-simple (>= 0.0.3)
     multi_xml (0.5.5)
