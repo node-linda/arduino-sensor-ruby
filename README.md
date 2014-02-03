@@ -9,7 +9,7 @@ Share Arduino's sensor values with [linda-socket.io](https://github.com/node-lin
 
 ## Install Dependencies
 
-    % gem install bundler
+    % gem install bundler foreman
     % bundle install
 
 
